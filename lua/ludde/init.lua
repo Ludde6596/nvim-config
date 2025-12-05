@@ -10,7 +10,7 @@ vim.schedule(function()
 	vim.o.clipboard = 'unnamedplus'
 end)
 
-vim.breakindent = true
+vim.o.breakindent = true
 vim.o.undofile = true
  
 --Case insensitive seraching
