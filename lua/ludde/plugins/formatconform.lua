@@ -28,8 +28,21 @@ return {
         }
       end
     end,
+    formatters = {
+      prettier = {
+        command = "npx",
+        args = { "prettier", "--stdin-filepath", "$FILENAME" },
+        -- no custom cwd needed; npx will resolve from the file's dir up
+      },
+    },
     formatters_by_ft = {
       lua = { "stylua" },
+      javascript = { "prettier" },
+      typescript = { "prettier" },
+      css = { "prettier" },
+      html = { "prettier" },
+      svelte = { "prettier" },
+      json = { "prettier" },
       -- Conform can also run multiple formatters sequentially
       -- python = { "isort", "black" },
       --

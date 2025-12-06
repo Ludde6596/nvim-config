@@ -227,6 +227,11 @@ return {
           },
         },
       },
+      ts_ls = {},
+      svelte = {},
+      html = {},
+      cssls = {},
+      jsonls = {},
     }
     --Custom code for local installed lsps
 
