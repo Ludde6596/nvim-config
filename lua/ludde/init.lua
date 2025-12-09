@@ -61,6 +61,7 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 local indent_by_ft = {
   lua = { shiftwidth = 2, tabstop = 2, softtabstop = 2, expandtab = true },
   javascript = { shiftwidth = 2, tabstop = 2, softtabstop = 2, expandtab = true },
+  svelte = { shiftwidth = 2, tabstop = 2, softtabstop = 2, expandtab = true },
   typescript = { shiftwidth = 2, tabstop = 2, softtabstop = 2, expandtab = true },
   json = { shiftwidth = 2, tabstop = 2, softtabstop = 2, expandtab = true },
   yaml = { shiftwidth = 2, tabstop = 2, softtabstop = 2, expandtab = true },
