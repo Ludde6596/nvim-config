@@ -71,6 +71,8 @@ local indent_by_ft = {
   python = { shiftwidth = 4, tabstop = 4, softtabstop = 4, expandtab = true },
 
   make = { shiftwidth = 4, tabstop = 4, softtabstop = 0, expandtab = false },
+  cpp = { shiftwidth = 4, tabstop = 4, softtabstop = 4, expandtab = true },
+  c = { shiftwidth = 4, tabstop = 4, softtabstop = 4, expandtab = true },
 }
 
 vim.api.nvim_create_autocmd("FileType", {

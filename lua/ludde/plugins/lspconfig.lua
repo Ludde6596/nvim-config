@@ -232,6 +232,7 @@ return {
       html = {},
       cssls = {},
       jsonls = {},
+      clangd = {},
     }
     --Custom code for local installed lsps
 
